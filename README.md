@@ -44,11 +44,11 @@ Before running the app, ensure you have the following installed:
 2. Install the required dependencies
   ```bash
   pip install -r requirements.txt
-```
+  ```
 3. Add your own datasets in data folder if required
 
 4. To run the app using Streamlit
    ```bash 
     streamlit run main.py
-```
+   ```
   
