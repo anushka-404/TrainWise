@@ -2,7 +2,7 @@
 
 🚀 **TrainWise** is a user-friendly, no-code machine learning application designed to help users build and evaluate classification models effortlessly. Whether you're a beginner or an expert, TrainWise simplifies the process of training machine learning models without requiring any coding knowledge.
 
----
+
 
 ## Features
 
@@ -15,7 +15,7 @@
 ✅ **Download Trained Models**: Save your trained models for future use.  
 ✅ **Dark Mode Support**: Works seamlessly in both light and dark modes.  
 
----
+
 
 ## Technologies Used
 
@@ -27,7 +27,7 @@
 - **Matplotlib & Seaborn**: For data visualization.  
 - **Joblib**: For saving and loading trained models.  
 
----
+
 
 ## How to Use
 
@@ -41,6 +41,7 @@ Before running the app, ensure you have the following installed:
    ```bash
    git clone https://github.com/anushka-404/TrainWise.git
    cd TrainWise
+   ```
 2. Install the required dependencies
   ```bash
   pip install -r requirements.txt
