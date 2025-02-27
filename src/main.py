@@ -34,6 +34,23 @@ st.markdown(
     """
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
+    :root {
+        --bg-color-light: white;
+        --text-color-light: black;
+        --bg-color-dark: #0e1117;
+        --text-color-dark: white;
+    }
+    body[data-theme="light"] {
+        background-color: var(--bg-color-light);
+        color: var(--text-color-light);
+    }
+    body[data-theme="dark"] {
+        background-color: var(--bg-color-dark);
+        color: var(--text-color-dark);
+    }
+    body {
+        transition: background 0.3s, color 0.3s;
+    }
     .stButton button {
         background-color: #2E86C1;
         color: white;
@@ -60,7 +77,7 @@ st.markdown(
     }
     .stInstruction {
         font-size: 20px;
-        color: #333;
+        color: inherit;
         line-height: 1.6;
         margin-bottom: 20px;
     }
@@ -90,6 +107,10 @@ st.markdown(
     .stTable td {
         padding: 10px;
         border-bottom: 1px solid #ddd;
+    }
+    button {
+        padding: 10px 20px;
+        cursor: pointer;
     }
     </style>
     """, 
