@@ -1,5 +1,7 @@
 # TrainWise: No-Code Machine Learning for Classification Tasks
 
+LINK: https://trainwise.streamlit.app/
+
 🚀 **TrainWise** is a user-friendly, no-code machine learning application designed to help users build and evaluate classification models effortlessly. Whether you're a beginner or an expert, TrainWise simplifies the process of training machine learning models without requiring any coding knowledge.
 
 ![image alt](https://github.com/anushka-404/TrainWise/blob/c5b3a09230ea31bf7411e7881af47603070b9aac/Screenshot%202025-02-26%20144604.png)
@@ -50,8 +52,6 @@ Before running the app, ensure you have the following installed:
    ```bash 
     streamlit run main.py
    ```
-
-(NOTE: USE LIGHT MODE FOR BETTER EXPERIENCE)
 
 ### STEP BY STEP TUTORIAL 
 1. Upload the dataset: You can choose any dataset from default or upload one from your device
